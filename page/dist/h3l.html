@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>H3L</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="../src/scss/h3l.css">
+</head>
+
+<body>
+  <!-- header_desk start -->
+  <div class="header_desk sticky-top">
+    <div class="headerTop">
+      <h1 class="vLogo">
+        <a href="../../index.html">
+          <img src="images/nav/VDartsLOGO.png" alt="VDarts">
+        </a>
+      </h1>
+      <div class="topGroup">
+        <div class="lLogo">
+          <img src="images/nav/LetswinLOGO.png" alt="LETSWIN">
+        </div>
+        <div class="headerIcon">
+          <a class="mx-2" href="">
+            <img src="images/nav/FacebookIcon.png" alt="">
+          </a>
+          <a class="mx-2" href="">
+            <img src="images/nav/YoutubeIcon.png" alt="">
+          </a>
+        </div>
+        <div class="btn-group">
+          <a class="langue" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            語言
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="fixDropdown dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item text-center" href="#">繁體中文</a>
+            <a class="dropdown-item text-center" href="#">簡体中文</a>
+            <a class="dropdown-item text-center" href="#">English</a>
+            <a class="dropdown-item text-center" href="#">日本語</a>
+            <a class="dropdown-item text-center" href="#">Español</a>
+            <a class="dropdown-item text-center" href="#">Français</a>
+            <a class="dropdown-item text-center" href="#">한국어</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="headerBottom">
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          產品
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="mini-plus.html">Mini Plus</a>
+          <a class="dropdown-item text-center" href="h3l.html">H3L</a>
+          <a class="dropdown-item text-center" href="3l.html">3L</a>
+          <a class="dropdown-item text-center" href="h2l.html">H2L</a>
+          <a class="dropdown-item text-center" href="h2.html">H2</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="game.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          遊戲
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="game.html">VS對戰模式</a>
+          <a class="dropdown-item text-center" href="game.html">01遊戲</a>
+          <a class="dropdown-item text-center" href="game.html">Cricket系列</a>
+          <a class="dropdown-item text-center" href="game.html">開心地帶</a>
+          <a class="dropdown-item text-center" href="game.html">練習比賽</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          賽事
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="app.html">SuperV</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          店鋪
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="shop.html">VDarts店鋪資訊</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          會員
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="#">繁體中文</a>
+          <a class="dropdown-item text-center" href="#">简体中文</a>
+          <a class="dropdown-item text-center" href="#">English</a>
+          <a class="dropdown-item text-center" href="#">日本語</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          投資
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="#">Dropdown link</a>
+          <a class="dropdown-item text-center" href="#">Dropdown link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header_desk end -->
+
+  <!-- header_rwd start -->
+  <div class="header_rwd sticky-top">
+    <a href="#">
+      <img src="images/nav/logo-m.png" width="200" alt="">
+    </a>
+    <a href="#" class="burger-box">
+      <div class="burger">
+        Menu
+      </div>
+    </a>
+    <nav class="sliding-panel-content">
+      <ul>
+        <li>
+          <a class="productLi">產品</a>
+        </li>
+        <li class="productPhone">
+          <a href="mini-plus.html">Mini Plus</a>
+          <a href="h3l.html">H3L</a>
+          <a href="3l.html">3L</a>
+          <a href="h2l.html">H2L</a>
+          <a href="h2.html">H2</a>
+        </li>
+        <li>
+          <a class="gameLi" href="game.html">遊戲</a>
+        </li>
+        <li class="gamePhone">
+          <a href="#">VS對戰模式</a>
+          <a href="#">01遊戲</a>
+          <a href="#">Cricket系列</a>
+          <a href="#">開心地帶</a>
+          <a href="#">練習比賽</a>
+        </li>
+        <li>
+          <a class="matchLi" href="#">賽事</a>
+        </li>
+        <li class="matchPhone">
+          <a href="app.html">SuperV</a>
+        </li>
+        <li>
+          <a class="shopLi" href="#">店鋪</a>
+        </li>
+        <li class="shopPhone">
+          <a href="shop.html">VDarts店鋪資訊</a>
+        </li>
+        <li>
+          <a class="memberLi" href="#">會員</a>
+        </li>
+        <li class="memberPhone">
+          <a href="#">繁體中文</a>
+          <a href="#">简体中文</a>
+          <a href="#">English</a>
+          <a href="#">日本語</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="sliding-panel-fade-screen"></div>
+  </div>
+  <!-- header_rwd end -->
+
+  <section class="sec01 container-fluid">
+    <div class="imgarea">
+      <img class="img-fluid" src="images/h3l/MainPage-H3L.jpg" alt="">
+    </div>
+    <div class="sec01-info container text-center">
+      <div class="row d-flex align-items-center justify-content-center">
+        <img src="images/h3l/H3L-Icon-01.png" alt="">
+        <img src="images/h3l/H3L-Icon-02.png" alt="">
+        <img src="images/h3l/H3L-Icon-03.png" alt="">
+        <img src="images/h3l/H3L-Icon-04.png" alt="">
+      </div>
+
+
+      <!-- swiper -->
+      <div id="swiper-container4" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/h3l/H3L-Icon-01.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/h3l/H3L-Icon-02.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/h3l/H3L-Icon-03.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/h3l/H3L-Icon-04.png" alt="">
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next">
+          <i class="fas fa-2x fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-2x fa-angle-left"></i>
+        </div>
+      </div>
+      <!-- swiper end-->
+
+
+      <p>不同於普通的家用娛樂式飛鏢靶，VDarts H3L在專業度上的表現完全
+        <br>
+        <span>媲美國際軟式飛鏢比賽機台。</span>除了家庭聚會遊戲、練鏢，配合遊戲APP的賽事系統，
+        <br> 未來你還能在家裡用H3L打全球聯網飛鏢比賽，贏取獎金
+      </p>
+      <img src="images/mini-plus/DartIcon.png" alt="">
+      <p class="gray">革命性的LED智能發光標靶，乃VDarts獨有。</p>
+      <p class="gray">三大智能黑科技，充分詮釋VDarts H3L「以人為本」的設計理念。</p>
+    </div>
+  </section>
+
+  <section class="sec02 container-fluid">
+    <div class="blueLine">
+      <h2>
+        <span>LED </span>智能光把，不只好看，更懂你</h2>
+    </div>
+    <div class="sec02-info container">
+      <p class="title1">夠聰明</p>
+      <p>多款遊戲全程智能光靶指引，亮哪打哪!</p>
+      <p>即使是新手玩家，也能輕易領悟，快速上手。</p>
+      <p class="title1">
+        <i class="fas fa-angle-down"></i>
+      </p>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-01.png" alt="">
+          <p class="text-center">01遊戲</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-02.png" alt="">
+          <p class="text-center">Cricket</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-03.png" alt="">
+          <p class="text-center">打井賽</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-04.png" alt="">
+          <p class="text-center">飛鏢轉盤</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-05.png" alt="">
+          <p class="text-center">怪獸大戰</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-06.png" alt="">
+          <p class="text-center">百慕達</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-07.png" alt="">
+          <p class="text-center">狙擊聖手</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-08.png" alt="">
+          <p class="text-center">賽馬</p>
+        </div>
+      </div>
+
+
+      <!-- swiper -->
+      <div id="swiper-container1" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-01.png" alt="">
+            <p class="text-center">01遊戲</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-02.png" alt="">
+            <p class="text-center">Cricket</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-03.png" alt="">
+            <p class="text-center">打井賽</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-04.png" alt="">
+            <p class="text-center">飛鏢轉盤</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-05.png" alt="">
+            <p class="text-center">怪獸大戰</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-06.png" alt="">
+            <p class="text-center">百慕達</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-07.png" alt="">
+            <p class="text-center">狙擊聖手</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-08.png" alt="">
+            <p class="text-center">賽馬</p>
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next">
+          <i class="fas fa-3x fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-3x fa-angle-left"></i>
+        </div>
+      </div>
+      <!-- swiper end-->
+
+
+      <p class="title2 mt-3">高顏值</p>
+      <p>光靶色彩絢麗，柔和而不刺眼。</p>
+      <p>遊戲時，每一次，</p>
+      <p>Low ton,Hat trick,White horse......</p>
+      <p>光靶動態特效皆能隨之起舞。</p>
+      <p class="title2">
+        <i class="fas fa-angle-down"></i>
+      </p>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid" width="65%" src="images/mini-plus/gif/DartBoard-09.gif" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid" width="65%" src="images/mini-plus/gif/DartBoard-10.gif" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid" width="65%" src="images/mini-plus/gif/DartBoard-11.gif" alt="">
+        </div>
+      </div>
+
+
+      <!-- swiper -->
+      <div id="swiper-container2" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="img-fluid" width="65%" src="images/mini-plus/gif/DartBoard-09.gif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" width="65%" src="images/mini-plus/gif/DartBoard-10.gif" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" width="65%" src="images/mini-plus/gif/DartBoard-11.gif" alt="">
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next">
+          <i class="fas fa-3x fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-3x fa-angle-left"></i>
+        </div>
+      </div>
+      <!-- swiper end-->
+
+
+      <p class="title3 mt-5">夠貼心</p>
+      <p>數學不好，光靶來補</p>
+      <p>遊戲關鍵分或結鏢時光靶提示，無須費心算分。</p>
+      <p class="title3">
+        <i class="fas fa-angle-down"></i>
+      </p>
+
+      <div class="row mb-4">
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-12.png" alt="">
+          <p class="text-center">01結鏢提示</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-13.png" alt="">
+          <p class="text-center">拉霸機</p>
+          <p class="text-center">逢7提示</p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img class="img-fluid" src="images/mini-plus/DartBoard-14.png" alt="">
+          <p class="text-center">追殺301</p>
+          <p class="text-center">追殺分提示</p>
+        </div>
+      </div>
+
+      <!-- swiper -->
+      <div id="swiper-container3" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-12.png" alt="">
+            <p class="text-center">01結鏢提示</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-13.png" alt="">
+            <p class="text-center">拉霸機</p>
+            <p class="text-center">逢7提示</p>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid" src="images/mini-plus/DartBoard-14.png" alt="">
+            <p class="text-center">追殺301</p>
+            <p class="text-center">追殺分提示</p>
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next">
+          <i class="fas fa-3x fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-3x fa-angle-left"></i>
+        </div>
+      </div>
+      <!-- swiper end-->
+    </div>
+  </section>
+
+
+  <section class="sec03 container-fluid">
+    <div class="grayLine">
+      <h2>高清雙攝，人靶同拍</h2>
+    </div>
+    <div class="sec03-info container">
+      <p>
+        <span>(H3L附加配件高清雙攝像頭將於2018年發布)</span>
+      </p>
+      <p>H3L在機身上方搭載了兩顆高清攝像頭。其中一顆是全新的
+        <span>廣角攝像頭</span>，
+        <br> 清楚的拍攝玩家每一鏢的著鏢和分數情況，聯網Online對戰時，讓比賽更專業公平。
+        <br> 另一顆
+        <span>前置攝像頭</span>，能夠清楚地看到對手樣貌和打鏢姿勢。
+      </p>
+      <div class="mb-4">
+        <img class="img-fluid" src="images/h3l/H3LPic-01.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="sec04 container-fluid">
+    <div class="blueLine">
+      <h2>Miss零分感應區，比賽更專業</h2>
+    </div>
+    <div class="sec04-info container">
+      <p>H3L的Miss零分區感應，
+        <span>準確度及效果完全媲美職業比賽級機台。</span>
+        <br> 無論是在家練鏢還是Online對戰，都更具臨場比賽感。
+      </p>
+      <img class="img-fluid" src="images/h3l/H3LPic-02.png" alt="">
+    </div>
+  </section>
+
+
+  <section class="sec06 container-fluid">
+    <div class="grayLine">
+      <h2>超靜音上靶，無須擔心打擾家人和鄰居</h2>
+    </div>
+    <div class="sec06-info row">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/mini-plus/SilentBoard.png" alt="">
+      </div>
+      <div class="sec-06-right col-lg-6">
+        <p>VDarts H3L在每個靶塊分區背部都加了一層
+          <span>環保吸音棉</span>，吸音效果等同專業錄音棚隔音效果。</p>
+        <p>即使是喜歡上打鏢的夜貓子，也可以盡情歡樂競賽，不用擔心會吵到鄰居休息。</p>
+        <div class="imgGroup">
+          <img class="img-fluid" src="images/mini-plus/SilentBoardIcon-01.png" alt="">
+          <img class="img-fluid" src="images/mini-plus/SilentBoardIcon-02.png" alt="">
+          <img class="img-fluid" src="images/mini-plus/SilentBoardIcon-03.png" alt="">
+          <img class="img-fluid" src="images/mini-plus/SilentBoardIcon-04.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec07 container-fluid">
+    <div class="blueLine">
+      <h2>VDarts Game，讓VDarts H3L更大顯身手</h2>
+    </div>
+    <div class="sec07-info container">
+      <p>
+        <span>六大遊戲系列，三十餘款飛鏢遊戲，</span>
+      </p>
+      <p>Online聯網對戰、比賽模式、開心地帶......</p>
+      <p>無論是朋友聚會、親子娛樂、競技比賽、職業練鏢，都能輕鬆應對。</p>
+      <a href="#">了解更多VDarts Game遊戲系統新功能
+        <i class="pl-3 fas fa-angle-right"></i>
+      </a>
+      <img class="img-fluid" src="images/mini-plus/GamePage.png" alt="">
+    </div>
+  </section>
+
+  <section class="sec08 container-fluid">
+    <div class="grayLine">
+      <h2>VDarts會員APP，競賽成績，全新改版</h2>
+    </div>
+    <div class="sec08-info row">
+      <div class="sec-08-left col-lg-6 justify-content-center align-items-center d-flex">
+        <div>
+          <p>
+            <span>VDarts APP</span>
+          </p>
+          <p>紀錄每個成長瞬間</p>
+          <a href="#">了解更多
+            <i class="pl-3 fas fa-angle-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/mini-plus/AppPage.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="sec09 container-fluid">
+    <div class="blueLine">
+      <h2>產品訊息</h2>
+    </div>
+    <div class="sec09-info container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="images/h3l/Info-H3L.png" alt="">
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="detail">
+            <p>品牌 : VDarts</p>
+            <p>型號 : VDarts H3L</p>
+            <p>類別 : 家用靶(壁掛式)</p>
+            <p>電壓 :100 - 240V</p>
+            <p>尺寸 : 58 X 61 X 7 cm</p>
+            <p>重量 : 5.5 kg</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="footer_menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">產品</h4>
+          <a href="">VDarts Mini Plus</a>
+          <a href="">VDarts H3L</a>
+          <a href="">VDarts 3L</a>
+          <a href="">VDarts H2L</a>
+          <a href=""> VDarts H2</a>
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">遊戲</h4>
+          <a href="">VS對戰模式</a>
+          <a href="">01遊戲</a>
+          <a href="">Cricket系列</a>
+          <a href="">開心地帶</a>
+          <a href="">練習比賽</a>
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">賽事</h4>
+          <a href="">SuperV</a>
+
+          <h4 class="mt-3 mb-3">店鋪</h4>
+          <a href="">VDarts店鋪資訊</a>
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">會員</h4>
+          <a href="">繁體中文</a>
+          <a href="">简体中文</a>
+          <a href="">English</a>
+          <a href="">日本語</a>
+
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">關注我們</h4>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+          <a href="">Youtube</a>
+          <a href="">Wechat</a>
+          <a href="">Weibo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-addr">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <br>
+          <br>
+          <img src="images/LetswinContactLogo.png">
+          <br>
+          <br>
+        </div>
+        <div class="col-lg-4">
+          臺灣總公司
+          <br> 利穎科技股份有限公司
+          <br> 地址：新北市中和區中正路766號6樓
+          <br> 電話：+886-2-82287256
+          <br>
+          <br> Head quarter: Letswin Technology Co.,Ltd.
+          <br> Add: 6F., No.766, Zhongzheng Rd.,
+          <br> Zhonghe Dist., New Taipei City 235,
+          <br> Taiwan ( R.O.C. )
+          <br> Tel: +886-2-82287256
+          <br>
+        </div>
+        <div class="col-lg-6">
+          廣州分公司
+          <br> 全球總代理：廣州名動科技有限公司
+          <br> 地址：廣州市越秀區環市東路370-372號正佳東方國際廣場1413
+          <br> 電話：+86-20-87717272　|　87557272
+          <br>
+          <br> Branch: Guangzhou Mingdong Trading Co.,Ltd.
+          <br> Add: Rm.805-806, South Tower, New world Times
+          <br> Center, No.2191 Guangyuan east Ed.,
+          <br> Tianhe dist., Guangzhou, China
+          <br> Tel: +86-020-87717272　|　87557272
+          <br>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <img class="img-fluid" width="90px" src="images/VFUN-LOGO.png" alt="">
+      <p style="text-align: center" class="p-1 m-0"> © 2018&nbsp;&nbsp; LETSWIN&nbsp;&nbsp; Copyright&nbsp;&nbsp; Letswin&nbsp;&nbsp; Technology&nbsp;&nbsp; Co.,LTD.&nbsp;&nbsp;
+        All&nbsp;&nbsp; Rights&nbsp;&nbsp; Reserved.
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script>
+    // header_rwd
+    $(function () {
+      $('.burger-box,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart', function (e) {
+        e.preventDefault();
+        $('.burger-box').toggleClass('is-open'); $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+      });
+    });
+
+    // 選單固定
+    let headerRwd = $('.header_rwd');
+    let header = $('.header_desk');
+    $(window).scroll(function () {
+      let scrollNow = $(window).scrollTop();
+      // console.log(scrollNow);
+      if (scrollNow >= 200) {
+        header.css('opacity', '.9');
+        headerRwd.css('opacity', '.9');
+      }
+      else {
+        header.css('opacity', '1');
+        headerRwd.css('opacity', '1');
+      }
+    });
+
+
+
+    // Initialize Swiper
+    var swiper1 = new Swiper('#swiper-container1', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    var swiper2 = new Swiper('#swiper-container2', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    var swiper3 = new Swiper('#swiper-container3', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    var swiper4 = new Swiper('#swiper-container4', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+
+    //header_rwd menu effect
+    let liClickHandler = function () {
+      // console.log($(this).parent().next())
+      $(this).parent().next().animate({
+        'display': 'block',
+        'height': "toggle"
+      })
+    }
+    $('.productLi, .gameLi, .matchLi, .shopLi, .memberLi').on('click', liClickHandler);
+  </script>
+
+</body>
+
+</html>

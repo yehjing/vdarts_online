@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+  <script type="text/javascript" src="js/slick/slick.js"></script>
+  <link href="js/lity/lity.css" rel="stylesheet">
+  <script src="js/lity/lity.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css">
+  <!-- Include the Sidr JS -->
+  <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+  <script type="text/javascript" src="js/countUp.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Vdarts</title>
+</head>
+
+<body>
+  <div class="header_desk sticky-top">
+    <!--header for desktop-->
+    <div class="headerTop">
+      <h1 class="vLogo">
+        <a href="index.html"><img src="import/IndexPic/VDartsLOGO.png" alt="VDarts"></a>
+      </h1>
+      <div class="topGroup d-flex align-items-center justify-content-between">
+        <div class="lLogo">
+          <img src="import/IndexPic/LetswinLOGO.png" alt="LETSWIN">
+        </div>
+        <div class="headerIcon">
+          <a class="mx-2" href="">
+            <img src="import/IndexPic/FacebookIcon.png" alt="">
+          </a>
+          <a class="mx-2" href="">
+            <img src="import/IndexPic/YoutubeIcon.png" alt="">
+          </a>
+        </div>
+        <div class="btn-group">
+          <a class="langue" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            語言
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="fixDropdown dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item text-center" href="#">繁體中文</a>
+            <a class="dropdown-item text-center" href="#">簡体中文</a>
+            <a class="dropdown-item text-center" href="#">English</a>
+            <a class="dropdown-item text-center" href="#">日本語</a>
+            <a class="dropdown-item text-center" href="#">Español</a>
+            <a class="dropdown-item text-center" href="#">Français</a>
+            <a class="dropdown-item text-center" href="#">한국어</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="headerbottom">
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          產品
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="page/dist/mini-plus.html">Mini Plus</a>
+          <a class="dropdown-item text-center" href="page/dist/h3l.html">H3L</a>
+          <a class="dropdown-item text-center" href="page/dist/3l.html">3L</a>
+          <a class="dropdown-item text-center" href="page/dist/h2l.html">H2L</a>
+          <a class="dropdown-item text-center" href="page/dist/h2.html">H2</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="page/dist/game.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          遊戲
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="page/dist/game.html">VS對戰模式</a>
+          <a class="dropdown-item text-center" href="page/dist/game.html">01遊戲</a>
+          <a class="dropdown-item text-center" href="page/dist/game.html">Cricket系列</a>
+          <a class="dropdown-item text-center" href="page/dist/game.html">開心地帶</a>
+          <a class="dropdown-item text-center" href="page/dist/game.html">練習比賽</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          賽事
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="page/dist/app.html">SuperV</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          店鋪
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="page/dist/shop.html">VDarts店鋪資訊</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          會員
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="#">繁體中文</a>
+          <a class="dropdown-item text-center" href="#">简体中文</a>
+          <a class="dropdown-item text-center" href="#">English</a>
+          <a class="dropdown-item text-center" href="#">日本語</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          投資
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="#">Dropdown link</a>
+          <a class="dropdown-item text-center" href="#">Dropdown link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="header_rwd sticky-top">
+    <!--header for mobile-->
+
+    <img src="import/logo-m.png" width="200" style="z-index: 99;position: absolute;top:0px;left: 0px;">
+
+    <a id="simple-menu" href="#sidr">
+      <i class="material-icons" style="font-size: 50px;color: #fff;position: absolute;top:20px;right: 20px;">menu</i>
+    </a>
+
+    <div id="sidr-right">
+      <!-- Your content -->
+      <ul>
+        <li>
+          <a href="#">產品</a>
+        </li>
+        <li class="active">
+          <a href="#">遊戲</a>
+        </li>
+        <li>
+          <a href="#">賽事</a>
+        </li>
+        <li>
+          <a href="#">店鋪</a>
+        </li>
+        <li>
+          <a href="#">會員</a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('#simple-menu').sidr({
+          name: 'sidr-right',
+          side: 'right'
+        });
+      });
+    </script>
+
+
+
+  </div>
+  <!--sec1-->
+  <div class="clear"></div>
+  <div class=" sec-1">
+
+    <div class="index_number">
+      <div class="num">
+        <span style="color:#31d8ff;font-size: 64px;" class="count_num">
+          <span id="count1">120000</span>+</span>
+        <br>
+        <span style="font-size: 24px;color: #fff;" class="count_text mt-1">全球玩家</span>
+      </div>
+      <div class="num">
+        <span style="color:#31d8ff;font-size: 64px;" class="count_num">
+          <span id="count2">20000</span>+</span>
+        <br>
+        <span style="font-size: 24px;color: #fff;" class="count_text mt-1">聯網飛鏢機與飛鏢靶</span>
+      </div>
+      <div class="num">
+        <span style="color:#31d8ff;font-size: 64px;" class="count_num">
+          <span id="count3">30</span>+</span>
+        <br>
+        <span style="font-size: 24px;color: #fff;" class="count_text mt-1">產品遍及國家和地區</span>
+      </div>
+    </div>
+    <!-- <div style="width:100px;height:100px;background:red;"></div> -->
+  </div>
+
+  <!-- index_number phone -->
+  <div class="sec1Phonebg">
+    <div class=" sec-1-phone">
+
+    </div>
+    <div class="sec-1-phoneB">
+      <div class="index_number">
+        <div class="num">
+          <span class="count_num">
+            <span id="count1">120000</span>+</span>
+          <br>
+          <span class="count_text mt-1">全球玩家</span>
+        </div>
+        <div class="num">
+          <span class="count_num">
+            <span id="count2">20000</span>+</span>
+          <br>
+          <span class="count_text mt-1">聯網飛鏢機與飛鏢靶</span>
+        </div>
+        <div class="num">
+          <span class="count_num">
+            <span id="count3">30</span>+</span>
+          <br>
+          <span class="count_text mt-1">產品遍及國家和地區</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- index_number phone end -->
+  <script>
+    var options = {
+      useEasing: true,
+      useGrouping: true,
+      separator: ',',
+      decimal: '.',
+      prefix: '',
+      suffix: ''
+    };
+    var count_1 = new CountUp("count1", 0, 120000, 0, 3).start();//1
+    var count_2 = new CountUp("count2", 0, 20000, 0, 4).start();//2
+    var count_3 = new CountUp("count3", 0, 30, 0, 5).start();//3
+
+  </script>
+  <!--sec2-->
+  <div class="sec-2">
+    <center>
+      <h2 style="color:#31363f;line-height: 120px;">穩定成長，可觀收入，飛鏢機發展
+        <span style="color: #31d8ff ">新趨勢！</span>
+      </h2>
+    </center>
+  </div>
+  <!--sec3-->
+  <div class="sec-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="sec3-l col-lg-7 p-0">
+          <div class="sec3Info">
+            <span class="fz38" style="color:#31363f;">世界級飛鏢機
+              <span class="desh">|</span>
+            </span>
+            <span class="rwdenter fz28" style="color:#31363f;"> 專業&#8226;研發&#8226;專利</span>
+          </div>
+          <img src="import/Intro/ProductMaker.gif" alt="">
+        </div>
+        <div class="sec3-r col-lg-5 p-0">
+          <div class="sec3Info sec3InfoR text-white">
+            <p class="fz38" class="mb-0">VDarts Mini Plus</p>
+            <p class="fz28" style="font-weight: 200;">2018 重磅推出</p>
+            <a class="text-white" href="#">了解更多
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </div>
+
+          <img src="import/Intro/sec3-r.jpg" alt="" height="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--sec4-->
+  <div class="sec4">
+    <center>
+      <h2 style="color: #fff;">所有設備全球聯網</h2>
+    </center>
+  </div>
+  <!--sec5-->
+
+  <div class="container">
+    <div class="sec5-title">
+      <h3 style="color:#31363f;">產品 PRODUCT</h3>
+      <hr style="color:#31363f;border-top:1px solid;">
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('.sec5').slick({
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: false,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                arrows: false
+              }
+            }
+          ]
+        });
+      });
+    </script>
+    <div class="sec5">
+      <div class="sec5-slick">
+        <img src="import/ProductPage/ProductPage-Mini.png" width="90%">
+        <br>
+        <h4>VDarts Mini Plus</h4>
+        <br>
+        <p>提升至14吋觸控螢幕，外觀小巧輕薄，完美繼承大型立式 機台所有優點，壁掛裝飾不僅節省空間，更能輕易與店家 風格融為一體；不單是遊戲娛樂，更是店家經營好幫手。
+        </p>
+        <br>
+        <a href="#">了解更多
+          <i class="pl-2 fas fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="sec5-slick">
+        <img src="import/ProductPage/ProductPage-H2L.png" width="90%">
+        <br>
+        <h4>VDarts Mini Plus</h4>
+        <br>
+        <p>提升至14吋觸控螢幕，外觀小巧輕薄，完美繼承大型立式 機台所有優點，壁掛裝飾不僅節省空間，更能輕易與店家 風格融為一體；不單是遊戲娛樂，更是店家經營好幫手。
+        </p>
+        <br>
+        <a href="#">了解更多
+          <i class="pl-2 fas fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="sec5-slick">
+        <img src="import/ProductPage/ProductPage-H2.png" width="90%">
+        <br>
+        <h4>VDarts Mini Plus</h4>
+        <br>
+        <p>提升至14吋觸控螢幕，外觀小巧輕薄，完美繼承大型立式 機台所有優點，壁掛裝飾不僅節省空間，更能輕易與店家 風格融為一體；不單是遊戲娛樂，更是店家經營好幫手。
+        </p>
+        <br>
+        <a href="#">了解更多
+          <i class="pl-2 fas fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="sec5-slick">
+        <img src="import/ProductPage/ProductPage-3L.png" width="90%">
+        <br>
+        <h4>VDarts Mini Plus</h4>
+        <br>
+        <p>提升至14吋觸控螢幕，外觀小巧輕薄，完美繼承大型立式 機台所有優點，壁掛裝飾不僅節省空間，更能輕易與店家 風格融為一體；不單是遊戲娛樂，更是店家經營好幫手。
+        </p>
+        <br>
+        <a href="#">了解更多
+          <i class="pl-2 fas fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="sec5-slick">
+        <img src="import/ProductPage/ProductPage-H3L.png" width="90%">
+        <br>
+        <h4>VDarts Mini Plus</h4>
+        <br>
+        <p>提升至14吋觸控螢幕，外觀小巧輕薄，完美繼承大型立式 機台所有優點，壁掛裝飾不僅節省空間，更能輕易與店家 風格融為一體；不單是遊戲娛樂，更是店家經營好幫手。
+        </p>
+        <br>
+        <a href="#">了解更多
+          <i class="pl-2 fas fa-angle-right"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!--sec6-->
+  <div class="container sec6btn">
+    <h3 class="mt-3" style="font-family:avant;">遊戲 Game</h3>
+    <hr class="mb-1" style="color:#31363f;border-top:1px solid;">
+
+    <div class="gmae_pc row">
+      <div class="btn-group col-lg" role="group">
+        <a id="game-btn1" class="gameItem pl-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          VS對戰模式
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+          <a class="dropdown-item text-center" href="#">連線對戰</a>
+          <a class="dropdown-item text-center" href="#">混合比賽</a>
+        </div>
+      </div>
+
+      <div class="btn-group col-lg" role="group">
+        <a id="game-btn2" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          01遊戲
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+          <a class="dropdown-item" href="#">Dropdown link</a>
+          <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+      </div>
+
+      <div class="btn-group col-lg" role="group">
+        <a id="game-btn3" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cricket系列
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="game-btn3">
+          <a class="dropdown-item" href="#">Dropdown link</a>
+          <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+      </div>
+
+      <div class="btn-group col-lg" role="group">
+        <a id="game-btn4" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          開心地帶
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="game-btn4">
+          <a class="dropdown-item" href="#">Dropdown link</a>
+          <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+      </div>
+
+      <div class="btn-group col-lg" role="group">
+        <a id="game-btn5" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          練習比賽
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="game-btn5">
+          <a class="dropdown-item" href="#">Dropdown link</a>
+          <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+      </div>
+      <div class="magic btn-group col-lg" role="group">
+        <a id="game-btn5" class="gameItem">
+          練習比賽
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- gmae_phone RWD -->
+    <div class="container-fluid sec6Phone ">
+      <div class="gmae_phone row">
+        <div class="btn-group col-lg " role="group">
+          <a id="game-btn1" class="gameItem pl-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            VS
+            <br> 對戰模式
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+            <a class="dropdown-item text-center" href="#">連線對戰</a>
+            <a class="dropdown-item text-center" href="#">混合比賽</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn2" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            01
+            <br> 遊戲
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn3" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cricket
+            <br> 系列
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="game-btn3">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn4" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            開心
+            <br> 地帶
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="game-btn4">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn5" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            練習
+            <br> 比賽
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="game-btn5">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+        <div class="magic btn-group col-lg" role="group">
+          <a id="game-btn5" class="gameItem">
+            練習
+            <br> 比賽
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- gmae_phone RWD end-->
+
+
+    <script>
+      $(document).ready(function () {
+        $('.sec6').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                arrows: false
+              }
+            }
+          ]
+        });
+      });
+    </script>
+    <div class="sec6">
+      <div class="sec6-slick">
+        <img src="import/GamePic/GamePic-01.png" width="50%" class="sec6-l">
+        <div class="sec6-r">
+          <br>
+          <h4 style="color: #31d8ff; font-size: 32px;">連線對戰</h4>
+          <br>
+          <p style="font-size: 18px;">與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="sec6-slick">
+        <img src="import/GamePic/GamePic-01.png" width="50%" class="sec6-l">
+        <div class="sec6-r">
+          <br>
+          <h4 style="color: #31d8ff; font-size: 32px;">連線對戰</h4>
+          <br>
+          <p style="font-size: 18px;">與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="sec6-slick">
+        <img src="import/GamePic/GamePic-01.png" width="50%" class="sec6-l">
+        <div class="sec6-r">
+          <br>
+          <h4 style="color: #31d8ff; font-size: 32px;">連線對戰</h4>
+          <br>
+          <p style="font-size: 18px;">與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="sec6-slick">
+        <img src="import/GamePic/GamePic-01.png" width="50%" class="sec6-l">
+        <div class="sec6-r">
+          <br>
+          <h4 style="color: #31d8ff; font-size: 32px;">連線對戰</h4>
+          <br>
+          <p style="font-size: 18px;">與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!--sec7-->
+  <div class="sec7">
+    <div class="container-fluid w-80">
+      <h2 style="color: #31d8ff ">MORE ABOUT VDARTS GAME</h2>
+    </div>
+    <div class="line" style="margin-bottom: 40px;"></div>
+    <div class="container-fluid w-80">
+
+      <div class="row">
+        <div class="col-lg sec7-col">
+          <a href="https://youtu.be/Oo85bf2B150" data-lity>
+            <img src="import/VideoPic/VdartsGameVideoPic-01.png" width="90%">
+          </a>
+        </div>
+        <div class="col-lg sec7-col">
+          <a href="https://youtu.be/CY9dPr7clH8" data-lity>
+            <img src="import/VideoPic/VdartsGameVideoPic-02.png" width="90%">
+          </a>
+        </div>
+        <div class="col-lg sec7-col">
+          <a href="https://youtu.be/Z2ICg4Me8ZY" data-lity>
+            <img src="import/VideoPic/VdartsGameVideoPic-03.png" width="90%">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--sec8-->
+  <div class="sec8">
+    <div class="sec8-title">
+      <center>
+        <h2 style="color: #fff;line-height: 120px;">適用於各種場合的飛鏢機</h2>
+      </center>
+    </div>
+    <div class="row">
+      <div class="sec8fig col-lg-7">
+        <img width="100%" class="img-fluid" src="import/DartMachine/DartMachine-01.jpg">
+      </div>
+      <div class="col-lg-5 sec8-text">時尚，高品質的飛鏢機，節省空間和成本效益，非常適合酒吧 / KTV / 餐廳 / 咖啡廳 / 商場，高品質飛鏢機，為各種日常娛樂提供各種遊戲。</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5 sec8-text ord2">飛鏢營訓練從小接近目標，專心聽講，小朋友也可一起練習，下個飛鏢明星就是，就是這群VDarts小鏢手們！</div>
+      <div class="sec8fig col-lg-7 ord1">
+        <img width="100%" class="img-fluid" src="import/DartMachine/DartMachine-02.jpg">
+      </div>
+
+    </div>
+
+    <div class="sec8-wall">
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+          <div class="sec8-textwithbg">
+            <p class="m-0">新款Mini Plus飛鏢機台全球最領先，更具時尚感。</p>
+            <p class="m-0">使用軟式飛鏢單機版或多人版國際帳號同時連線對戰，</p>
+            <p class="m-0">度過美好的歡樂時光！</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <!--sec9-->
+  <div class="sec9">
+    <div class="container-fluid w-80">
+      <h2 style="color: #31d8ff ">MORE ABOUT VDARTS MACHINE</h2>
+    </div>
+    <div class="line"></div>
+    <div class="container-fluid w-80 my-5">
+      <div class="row">
+        <div class="col-lg sec7-col">
+          <a href="https://youtu.be/DTsuMKKfqpg" data-lity>
+            <img src="import/VideoPic/VdartsMachineVideoPic-03.png" width="90%">
+          </a>
+        </div>
+        <div class="col-lg sec7-col">
+          <a href="https://youtu.be/5OVZqypFQ3k" data-lity>
+            <img src="import/VideoPic/VdartsMachineVideoPic-02.png" width="90%">
+          </a>
+        </div>
+        <div class="col-lg sec7-col">
+          <a href="https://youtu.be/xB6hpAOWrsA" data-lity>
+            <img src="import/VideoPic/VdartsMachineVideoPic-01.png" width="90%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--sec10-->
+  <div class="sec4">
+    <center>
+      <h2 style="color: #fff;">SuperV賽事</h2>
+    </center>
+  </div>
+  <div class="sec4-fig">
+    <img class="img-fluid" src="import/AnotherPage/SuperVChampionShip.png" width="100%">
+  </div>
+
+
+
+
+  <div class="sec8">
+    <div class="sec8-title">
+      <center>
+        <h2 style="color: #fff;line-height: 120px;">VDarts Game，讓VDarts Mini Plus更大顯身手</h2>
+      </center>
+    </div>
+    <div class="secVgame container text-center">
+      <p class="mt-5">
+        <span style="color: #31d8ff ">六大遊戲系列，三十餘款飛鏢遊戲，</span>
+      </p>
+      <p>Online聯網對戰、比賽模式、開心地帶......</p>
+      <p>無論是朋友聚會、親子娛樂、競技比賽、職業練標，都能輕鬆應對。</p>
+      <a href="#">了解更多VDarts Game遊戲系統新功能
+        <i class="pl-3 fas fa-angle-right"></i>
+      </a>
+      <img class="mb-5" src="import/GamePic/GamePage.png" class="img-fluid" alt="GamePic">
+    </div>
+
+    <div class="sec4">
+      <center>
+        <h2 style="color: #fff;">VDarts會員APP，競賽成績，全新改版</h2>
+      </center>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="sec11-text">
+              <h4 style="font-size: 40pt;">VDarts APP</h4>
+              <p style="color: #959595;font-size: 20pt;">記錄每個成長的瞬間</p>
+
+              <a style="color: #959595;" href="#">了解更多
+                <i class="pl-2 fas fa-angle-right"></i>
+              </a>
+            </div>
+
+
+          </div>
+          <div class="col-lg-8">
+            <img src="import/AnotherPage/AppPage.png" width="100%">
+          </div>
+        </div>
+      </div>
+
+      <div class="sec8-title">
+        <center>
+          <h2 style="color: #fff;line-height: 120px;">VDarts 會員卡</h2>
+        </center>
+      </div>
+      <img src="import/AnotherPage/MemberPlatform.jpg" width="100%">
+      <div class="container sec11">
+        <div class="row">
+          <div class="col contact-text">
+            <img src="import/Contact/QRcodeforLineVDarts.jpg">
+            <br>
+            <a href="#" style="color: #44d000;text-decoration: underline;">線上諮詢</a>
+            <br> VDarts客服幫助中心
+            <br> 相關問題服務 / 合作提案 / 廠商投資
+            <br> 請掃描QRcode加LINE諮詢
+          </div>
+          <div class="col">
+            <div class="col contact-text">
+              <img src="import/Contact/EmailIcon.png">
+              <br>
+              <a href="#" style="color: #44d000;text-decoration: underline;">Email</a>
+              <br> service@vdarts.tw ( 臺灣 )
+              <br> hongkong@vdarts.tw ( 港澳 )
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+
+
+
+
+
+      <div class="footer_menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg footer-col">
+              <h4 class="mb-3">產品</h4>
+              <a href="">VDarts Mini Plus</a>
+              <a href="">VDarts H3L</a>
+              <a href="">VDarts 3L</a>
+              <a href="">VDarts H2L</a>
+              <a href=""> VDarts H2</a>
+            </div>
+
+            <div class="col-lg footer-col">
+              <h4 class="mb-3">遊戲</h4>
+              <a href="">VS對戰模式</a>
+              <a href="">01遊戲</a>
+              <a href="">Cricket系列</a>
+              <a href="">開心地帶</a>
+              <a href="">練習比賽</a>
+            </div>
+
+            <div class="col-lg footer-col">
+              <h4 class="mb-3">賽事</h4>
+              <a href="">SuperV</a>
+
+              <h4 class="mt-3 mb-3">店鋪</h4>
+              <a href="">VDarts店鋪資訊</a>
+            </div>
+
+            <div class="col-lg footer-col">
+              <h4 class="mb-3">會員</h4>
+              <a href="">繁體中文</a>
+              <a href="">简体中文</a>
+              <a href="">English</a>
+              <a href="">日本語</a>
+
+            </div>
+
+            <div class="col-lg footer-col">
+              <h4 class="mb-3">關注我們</h4>
+              <a href="">Facebook</a>
+              <a href="">Twitter</a>
+              <a href="">Youtube</a>
+              <a href="">Wechat</a>
+              <a href="">Weibo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="footer-addr">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2">
+              <br>
+              <br>
+              <img src="import/Contact/LetswinContactLogo.png">
+              <br>
+              <br>
+            </div>
+            <div class="col-lg-4">
+              臺灣總公司
+              <br> 利穎科技股份有限公司
+              <br> 地址：新北市中和區中正路766號6樓
+              <br> 電話：+886-2-82287256
+              <br>
+              <br> Head quarter: Letswin Technology Co.,Ltd.
+              <br> Add: 6F., No.766, Zhongzheng Rd.,
+              <br> Zhonghe Dist., New Taipei City 235,
+              <br> Taiwan ( R.O.C. )
+              <br> Tel: +886-2-82287256
+              <br>
+            </div>
+            <div class="col-lg-6">
+              廣州分公司
+              <br> 全球總代理：廣州名動科技有限公司
+              <br> 地址：廣州市越秀區環市東路370-372號正佳東方國際廣場1413
+              <br> 電話：+86-20-87717272　|　87557272
+              <br>
+              <br> Branch: Guangzhou Mingdong Trading Co.,Ltd.
+              <br> Add: Rm.805-806, South Tower, New world Times
+              <br> Center, No.2191 Guangyuan east Ed.,
+              <br> Tianhe dist., Guangzhou, China
+              <br> Tel: +86-020-87717272　|　87557272
+              <br>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+          <img class="img-fluid" width="90px" src="import/VFUN-LOGO.png" alt="">
+          <p style="text-align: center" class="p-1 m-0"> © 2018&nbsp;&nbsp; LETSWIN&nbsp;&nbsp; Copyright&nbsp;&nbsp; Letswin&nbsp;&nbsp; Technology&nbsp;&nbsp; Co.,LTD.&nbsp;&nbsp;
+            All&nbsp;&nbsp; Rights&nbsp;&nbsp; Reserved.
+          </p>
+        </div>
+      </div>
+</body>
+
+<script>
+  // 選單固定
+  let headerRwd = $('.header_rwd');
+  let header = $('.header_desk');
+  $(window).scroll(function () {
+    let scrollNow = $(window).scrollTop();
+    // console.log(scrollNow);
+    if (scrollNow >= 200) {
+      header.css('opacity', '.9');
+      headerRwd.css('opacity', '.9');
+    }
+    else {
+      header.css('opacity', '1');
+      headerRwd.css('opacity', '1');
+    }
+  });
+
+
+</script>
+
+</html>

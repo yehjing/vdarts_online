@@ -1,0 +1,56 @@
+$mainColor:#31363f;
+$secondColor:#31d8ff;
+$yellow:#FFD401;
+$green:#45CF00;
+$textColor:#7F7F7F;
+// @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+*{
+  font-family:'微軟正黑體','Noto Sans';
+  // font-family: 'Noto Sans TC', sans-serif;
+}
+body{
+  width: 100%;
+  // background: red;
+}
+
+.blueLine{
+  height: 90px;
+  background: $secondColor;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2{
+    color:#fff;
+    font-weight: bold;
+    margin: 0;
+    span{
+      color:$yellow;
+    }
+  }
+}
+.grayLine{
+  height: 90px;
+  background: $mainColor;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2{
+    color:#fff;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .blueLine{
+    height: 80px;
+    padding:0 20px;
+  }
+  .grayLine{
+    height: 80px;
+    padding: 0 20px;
+  }
+}

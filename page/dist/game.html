@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="../src/scss/game.css">
+</head>
+
+<body>
+  <!-- header_desk start -->
+  <div class="header_desk sticky-top">
+    <div class="headerTop">
+      <h1 class="vLogo">
+        <a href="../../index.html">
+          <img src="images/nav/VDartsLOGO.png" alt="VDarts">
+        </a>
+      </h1>
+      <div class="topGroup">
+        <div class="lLogo">
+          <img src="images/nav/LetswinLOGO.png" alt="LETSWIN">
+        </div>
+        <div class="headerIcon">
+          <a class="mx-2" href="">
+            <img src="images/nav/FacebookIcon.png" alt="">
+          </a>
+          <a class="mx-2" href="">
+            <img src="images/nav/YoutubeIcon.png" alt="">
+          </a>
+        </div>
+        <div class="btn-group">
+          <a class="langue" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            語言
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="fixDropdown dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item text-center" href="#">繁體中文</a>
+            <a class="dropdown-item text-center" href="#">簡体中文</a>
+            <a class="dropdown-item text-center" href="#">English</a>
+            <a class="dropdown-item text-center" href="#">日本語</a>
+            <a class="dropdown-item text-center" href="#">Español</a>
+            <a class="dropdown-item text-center" href="#">Français</a>
+            <a class="dropdown-item text-center" href="#">한국어</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="headerBottom">
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          產品
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="mini-plus.html">Mini Plus</a>
+          <a class="dropdown-item text-center" href="h3l.html">H3L</a>
+          <a class="dropdown-item text-center" href="3l.html">3L</a>
+          <a class="dropdown-item text-center" href="h2l.html">H2L</a>
+          <a class="dropdown-item text-center" href="h2.html">H2</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="game.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          遊戲
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="game.html">VS對戰模式</a>
+          <a class="dropdown-item text-center" href="game.html">01遊戲</a>
+          <a class="dropdown-item text-center" href="game.html">Cricket系列</a>
+          <a class="dropdown-item text-center" href="game.html">開心地帶</a>
+          <a class="dropdown-item text-center" href="game.html">練習比賽</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          賽事
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="app.html">SuperV</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          店鋪
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="shop.html">VDarts店鋪資訊</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          會員
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="#">繁體中文</a>
+          <a class="dropdown-item text-center" href="#">简体中文</a>
+          <a class="dropdown-item text-center" href="#">English</a>
+          <a class="dropdown-item text-center" href="#">日本語</a>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="menuItem" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          投資
+          <i class="pl-2 fas fa-angle-down"></i>
+        </a>
+        <div class="dropdown-menu borderT" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item text-center" href="#">Dropdown link</a>
+          <a class="dropdown-item text-center" href="#">Dropdown link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header_desk end -->
+
+  <!-- header_rwd start -->
+  <div class="header_rwd sticky-top">
+    <a href="#">
+      <img src="images/nav/logo-m.png" width="200" alt="">
+    </a>
+    <a href="#" class="burger-box">
+      <div class="burger">
+        Menu
+      </div>
+    </a>
+    <nav class="sliding-panel-content">
+      <ul>
+        <li>
+          <a class="productLi">產品</a>
+        </li>
+        <li class="productPhone">
+          <a href="mini-plus.html">Mini Plus</a>
+          <a href="h3l.html">H3L</a>
+          <a href="3l.html">3L</a>
+          <a href="h2l.html">H2L</a>
+          <a href="h2.html">H2</a>
+        </li>
+        <li>
+          <a class="gameLi" href="game.html">遊戲</a>
+        </li>
+        <li class="gamePhone">
+          <a href="#">VS對戰模式</a>
+          <a href="#">01遊戲</a>
+          <a href="#">Cricket系列</a>
+          <a href="#">開心地帶</a>
+          <a href="#">練習比賽</a>
+        </li>
+        <li>
+          <a class="matchLi" href="#">賽事</a>
+        </li>
+        <li class="matchPhone">
+          <a href="app.html">SuperV</a>
+        </li>
+        <li>
+          <a class="shopLi" href="#">店鋪</a>
+        </li>
+        <li class="shopPhone">
+          <a href="shop.html">VDarts店鋪資訊</a>
+        </li>
+        <li>
+          <a class="memberLi" href="#">會員</a>
+        </li>
+        <li class="memberPhone">
+          <a href="#">繁體中文</a>
+          <a href="#">简体中文</a>
+          <a href="#">English</a>
+          <a href="#">日本語</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="sliding-panel-fade-screen"></div>
+  </div>
+  <!-- header_rwd end -->
+
+  <section class="sec01 container-fluid">
+    <div class="imgarea">
+      <img class="img-fluid" src="images/game/MainPage-Game.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="sec02 container-fluid">
+    <div class="blueLine">
+      <h2>
+        數十款飛鏢遊戲大作，比賽娛樂兩不誤
+      </h2>
+    </div>
+    <div class="sec02-info container sec2btn">
+      <p>多達六個遊戲系列，數十款飛鏢遊戲，專業的聯賽系統以及混和比賽模式，任何級別的賽事，都能輕鬆應對。開心地帶模式，更為酒客及娛樂而生。</p>
+      <h3 class="mt-3">遊戲 Game</h3>
+      <hr class="mb-1" style="color:#31363f;border-top:1px solid;">
+
+      <div class="gmae_pc row">
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn1" class="gameItem pl-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            VS對戰模式
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+            <a class="dropdown-item text-center" href="#">連線對戰</a>
+            <a class="dropdown-item text-center" href="#">混合比賽</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn2" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            01遊戲
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn3" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cricket系列
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="game-btn3">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn4" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            開心地帶
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="game-btn4">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+
+        <div class="btn-group col-lg" role="group">
+          <a id="game-btn5" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            練習比賽
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="game-btn5">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+        <div class="magic btn-group col-lg" role="group">
+          <a id="game-btn5" class="gameItem">
+            練習比賽
+            <i class="pl-2 fas fa-angle-down"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- gmae_phone RWD -->
+      <div class="container-fluid sec2Phone ">
+        <div class="gmae_phone row">
+          <div class="btn-group col-lg " role="group">
+            <a id="game-btn1" class="gameItem pl-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              VS
+              <br> 對戰模式
+              <i class="pl-2 fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+              <a class="dropdown-item text-center" href="#">連線對戰</a>
+              <a class="dropdown-item text-center" href="#">混合比賽</a>
+            </div>
+          </div>
+
+          <div class="btn-group col-lg" role="group">
+            <a id="game-btn2" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              01
+              <br> 遊戲
+              <i class="pl-2 fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="bgame-btn1">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </div>
+
+          <div class="btn-group col-lg" role="group">
+            <a id="game-btn3" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cricket
+              <br> 系列
+              <i class="pl-2 fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="game-btn3">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </div>
+
+          <div class="btn-group col-lg" role="group">
+            <a id="game-btn4" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              開心
+              <br> 地帶
+              <i class="pl-2 fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="game-btn4">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </div>
+
+          <div class="btn-group col-lg" role="group">
+            <a id="game-btn5" class="gameItem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              練習
+              <br> 比賽
+              <i class="pl-2 fas fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="game-btn5">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </div>
+          <div class="magic btn-group col-lg" role="group">
+            <a id="game-btn5" class="gameItem">
+              練習
+              <br>比賽
+              <i class="pl-2 fas fa-angle-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- gmae_phone RWD end-->
+
+
+      <!-- swiper start-->
+      <div id="swiper-container1" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/game/GamePic.png" alt="">
+              </div>
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="textarea">
+                  <p>
+                    <span>連線對戰</span>
+                  </p>
+                  <p>與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/game/GamePic.png" alt="">
+              </div>
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="textarea">
+                  <p>
+                    <span>連線對戰</span>
+                  </p>
+                  <p>與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/game/GamePic.png" alt="">
+              </div>
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="textarea">
+                  <p>
+                    <span>連線對戰</span>
+                  </p>
+                  <p>與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/game/GamePic.png" alt="">
+              </div>
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="textarea">
+                  <p>
+                    <span>連線對戰</span>
+                  </p>
+                  <p>與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/game/GamePic.png" alt="">
+              </div>
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="textarea">
+                  <p>
+                    <span>連線對戰</span>
+                  </p>
+                  <p>與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="images/game/GamePic.png" alt="">
+              </div>
+              <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="textarea">
+                  <p>
+                    <span>連線對戰</span>
+                  </p>
+                  <p>與全球VDarts聯網飛鏢機上的會員進行對戰。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-button-next">
+          <i class="fas fa-3x fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-3x fa-angle-left"></i>
+        </div> -->
+      </div>
+      <!-- swiper end-->
+
+
+
+
+
+    </div>
+  </section>
+
+
+  <section class="sec03 container-fluid">
+    <div class="grayLine">
+      <h2>Online對戰，盡情PK!是對手，也是朋友</h2>
+    </div>
+    <div class="sec03-info container">
+      <p>
+        全球數十個國家的飛鏢玩家在線，隨時等著你來挑戰!
+        <br>對戰過的對手，還能加為好友，在線聊天或約戰
+        <br>(需下載VDarts會員APP)，擴大你的鏢友圈。
+      </p>
+      <div class="mb-4">
+        <img class="img-fluid" src="images/game/GamePic-01.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="sec04 container-fluid">
+    <div class="blueLine">
+      <h2>
+        包時暢打，一人付費，多人同玩，朋友聚會嗨到爽
+      </h2>
+    </div>
+    <div class="mb-4 sec04-info container">
+      <p class="mb-0">多個持卡玩家機台包時(可選1、2、3小時)，</p>
+      <p>平均遊戲花費最低只需原來的
+        <span>20%</span>，更適合鏢隊團練及朋友聚會遊戲。</p>
+      <img class="img-fluid" src="images/game/GamePic-02.png" alt="">
+      <img src="images/game/GamePic-03.png" alt="" class="img-fluid">
+    </div>
+  </section>
+
+
+  <section class="sec05 container-fluid">
+    <div class="grayLine">
+      <h2>
+        VDarts Game
+      </h2>
+    </div>
+    <div class="sec05-info container">
+      <p class="text-center">(Mini Plus / H3L / H2L / H2 用戶需下載此APP)</p>
+      <div class="row">
+        <div class="imggg col-lg-6 d-flex justify-content-center">
+          <img class="img-fluid" src="images/game/GameDownload.png" alt="">
+          <div class="imgfuck d-flex flex-column justify-content-center align-items-center">
+            <a href="http://tw.vdarts.net/android/VDartsAPP.apk">
+              <img class="img-fluid mb-4" src="images/game/GameDownload-01.png" alt="">
+            </a>
+            <a href="https://itunes.apple.com/tw/app/vdarts/id805403982?mt=8">
+              <img class="img-fluid mb-4" src="images/game/GameDownload-02.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div>
+            <p class="mb-5">處理器:四核1.2G
+              <br> 內存:2G
+              <br> 系統:Android4.4.3含以上版本設備
+              <br> 藍芽:4.0
+              <br> 支援:OpenGL2.0
+            </p>
+            <p>iPhone 5S、iPad Air2、
+              <br>iPad mini 2配有IOS 8或更高版本</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="footer_menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">產品</h4>
+          <a href="">VDarts Mini Plus</a>
+          <a href="">VDarts H3L</a>
+          <a href="">VDarts 3L</a>
+          <a href="">VDarts H2L</a>
+          <a href=""> VDarts H2</a>
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">遊戲</h4>
+          <a href="">VS對戰模式</a>
+          <a href="">01遊戲</a>
+          <a href="">Cricket系列</a>
+          <a href="">開心地帶</a>
+          <a href="">練習比賽</a>
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">賽事</h4>
+          <a href="">SuperV</a>
+
+          <h4 class="mt-3 mb-3">店鋪</h4>
+          <a href="">VDarts店鋪資訊</a>
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">會員</h4>
+          <a href="">繁體中文</a>
+          <a href="">简体中文</a>
+          <a href="">English</a>
+          <a href="">日本語</a>
+
+        </div>
+
+        <div class="col-lg footer-col">
+          <h4 class="mb-3">關注我們</h4>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+          <a href="">Youtube</a>
+          <a href="">Wechat</a>
+          <a href="">Weibo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-addr">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <br>
+          <br>
+          <img src="images/LetswinContactLogo.png">
+          <br>
+          <br>
+        </div>
+        <div class="col-lg-4">
+          臺灣總公司
+          <br> 利穎科技股份有限公司
+          <br> 地址：新北市中和區中正路766號6樓
+          <br> 電話：+886-2-82287256
+          <br>
+          <br> Head quarter: Letswin Technology Co.,Ltd.
+          <br> Add: 6F., No.766, Zhongzheng Rd.,
+          <br> Zhonghe Dist., New Taipei City 235,
+          <br> Taiwan ( R.O.C. )
+          <br> Tel: +886-2-82287256
+          <br>
+        </div>
+        <div class="col-lg-6">
+          廣州分公司
+          <br> 全球總代理：廣州名動科技有限公司
+          <br> 地址：廣州市越秀區環市東路370-372號正佳東方國際廣場1413
+          <br> 電話：+86-20-87717272　|　87557272
+          <br>
+          <br> Branch: Guangzhou Mingdong Trading Co.,Ltd.
+          <br> Add: Rm.805-806, South Tower, New world Times
+          <br> Center, No.2191 Guangyuan east Ed.,
+          <br> Tianhe dist., Guangzhou, China
+          <br> Tel: +86-020-87717272　|　87557272
+          <br>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <img class="img-fluid" width="90px" src="images/VFUN-LOGO.png" alt="">
+      <p style="text-align: center" class="p-1 m-0"> © 2018&nbsp;&nbsp; LETSWIN&nbsp;&nbsp; Copyright&nbsp;&nbsp; Letswin&nbsp;&nbsp; Technology&nbsp;&nbsp; Co.,LTD.&nbsp;&nbsp;
+        All&nbsp;&nbsp; Rights&nbsp;&nbsp; Reserved.
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script>
+    // header_rwd
+    $(function () {
+      $('.burger-box,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart', function (e) {
+        e.preventDefault();
+        $('.burger-box').toggleClass('is-open'); $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+      });
+    });
+
+    // 選單固定
+    let headerRwd = $('.header_rwd');
+    let header = $('.header_desk');
+    $(window).scroll(function () {
+      let scrollNow = $(window).scrollTop();
+      // console.log(scrollNow);
+      if (scrollNow >= 200) {
+        header.css('opacity', '.9');
+        headerRwd.css('opacity', '.9');
+      }
+      else {
+        header.css('opacity', '1');
+        headerRwd.css('opacity', '1');
+      }
+    });
+
+    // Initialize Swiper
+    var swiper1 = new Swiper('#swiper-container1', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        // bulletElement: 'li',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        bulletElement: 'li',
+      },
+    });
+
+    //header_rwd menu effect
+    let liClickHandler = function () {
+      // console.log($(this).parent().next())
+      $(this).parent().next().animate({
+        'display': 'block',
+        'height': "toggle"
+      })
+    }
+    $('.productLi, .gameLi, .matchLi, .shopLi, .memberLi').on('click', liClickHandler);
+  </script>
+
+</body>
+
+</html>

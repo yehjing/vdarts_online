@@ -1,0 +1,161 @@
+@import "main";
+@import "navbar";
+@import "footer";
+
+.menuItem:hover,
+.menuItem:focus,
+.langue:hover,
+.langue:focus {
+  background: #31363f;
+  color: #fff;
+}
+
+// sec01
+.sec01 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.sec02 {
+  width: 80%;
+  margin: 0 auto;
+  .filterForm {
+    padding: 20px 10px;
+    border-bottom: 1px solid $textColor;
+    .col-lg {
+      text-align: center;
+      > label {
+        font-size: 1.6rem;
+      }
+      > select {
+        text-align-last: center;
+        font-size: 1.2rem;
+      }
+      > input {
+        text-align: center;
+        font-size: 1.2rem;
+      }
+    }
+    .serch {
+      display: block;
+      background: $textColor;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-top: 40px;
+      padding: 10px 20px;
+    }
+  }
+  .listCard {
+    margin: 60px auto;
+    width: 70%;
+    .card-img {
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .card-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px 60px;
+      color: $textColor;
+      > .cardtitle {
+        color: #000;
+        margin-bottom: 15px;
+      }
+      > .address {
+        position: relative;
+        padding-left: 40px;
+        margin-bottom: 4px;
+        font-size: 1.4rem;
+        &:before {
+          content: "";
+          display: block;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          left: -5px;
+          background: url("../../dist/images/shop/AddIcon.png") no-repeat 50%
+            50%;
+          background-size: contain;
+        }
+      }
+      > .telephone {
+        position: relative;
+        margin: 0;
+        padding-left: 40px;
+        font-size: 1.4rem;
+        &:before {
+          content: "";
+          display: block;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          left: -5px;
+          background: url("../../dist/images/shop/TeleIcon.png") no-repeat 50%
+            50%;
+          background-size: contain;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+  a {
+    font-size: 1rem !important;
+  }
+  .sec02 {
+    .filterForm {
+      .col-lg {
+        text-align: left;
+      }
+    }
+    .listCard {
+      width: 100%;
+      margin: 20px auto;
+      .card-info {
+        padding: 20px 20px;
+        > .cardtitle {
+          font-size: 1.4rem;
+        }
+        > .address {
+          margin-bottom: 4px;
+          padding-left: 30px;
+          &:before {
+            width: 20px;
+            height: 20px;
+            left: 0;
+          }
+        }
+        > .telephone {
+          padding-left: 30px;
+          &:before {
+            width: 20px;
+            height: 20px;
+            top: 4px;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .imgarea {
+    height: 45vh;
+    overflow: hidden;
+    > img {
+      // width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
